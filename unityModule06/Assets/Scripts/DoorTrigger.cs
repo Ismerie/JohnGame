@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour
 {
-    public Door door;   // référence vers le script sur Pivot
+    public Door door;
 
     private void OnTriggerEnter(Collider other)
     {
